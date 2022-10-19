@@ -1,0 +1,175 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container{
+    display: block;
+    margin: 20px 0 17px 0;
+    border-radius: 5px;
+    height: 350px;
+    padding: 2rem;
+    width: 75%;
+    border: 1px solid white;
+    box-shadow: 0px 3px 7px 0px #ccc;
+};
+
+.slider-header {
+    border-bottom: 1px solid lightgray;
+    font-size: 24px;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 20px 20px;
+    font-weight: 800;
+}
+
+
+.slides {
+  position: relative;
+}
+
+
+.slides .slick-prev {
+  left: 1%;
+}
+
+.slides .slick-next {
+  right: 2%;
+}
+.slick-list {
+    height: 300px;
+    padding-left: 2rem
+}
+
+.slick-slide.slick-active.slick-current {
+    width: 300px;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px;
+    line-height: 1;
+    opacity: .85;
+    color: whitesmoke;
+}
+
+.slide-item{
+  height: 240px;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.slide-item:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: brightness(150%) saturate(150%);;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 40%;
+  z-index:1;
+}
+
+
+.slide-item-cuisine{
+  margin-top: 60%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: left;
+  padding: .7rem;
+}
+
+.slide-item-cuisine p:last-child{
+  font-size: 14px;
+}
+
+
+
+// i don't like repeating this 
+#Silog{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://d1sag4ddilekf6.azureedge.net/compressed/merchants/2-CZEUN7VZAB2YNE/hero/257ed67d01ca4b47af0d4db80c5426c7_1589168014353627766.jpeg");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Casual{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://i0.wp.com/backpackingwithabook.com/wp-content/uploads/2019/02/Top-15-Filipino-Restaurants-in-Cebu-Hukad-Restaurant.jpg?fit=960%2C640&ssl=1&resize=1280%2C720");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#Streets{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/1610474834185-U8FV1SMQR3YWEY5OS2SO/Filipino-street-food.jpg?format=1000w");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Pares{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-beef-pares-1200x900.jpg");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Pizza{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Mediterranian{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://static.toiimg.com/photo/84895387.cms");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#American{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://seat-check-seeds.s3-us-west-1.amazonaws.com/lexingtonbrass.jpg");
+  background-size: 98% 240px;
+  background-position: cente center center;
+  background-repeat: no-repeat;
+}
+
+#Mexican{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://seat-check-seeds.s3-us-west-1.amazonaws.com/nachodaddy.jpg");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Korean{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://seat-check-seeds.s3-us-west-1.amazonaws.com/ombu.jpg");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#Asian{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                       rgba(0, 0, 0, 0.3)),url("https://www.rinag.com/wp-content/uploads/2020/02/Asian-Street-Kitchen-Festival-2019-min.jpg");
+  background-size: 98% 240px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

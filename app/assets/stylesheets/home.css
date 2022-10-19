@@ -1,0 +1,144 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 26rem;
+    position: relative;
+}
+
+.cover-wrapper{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,rgba(47,45,65,.7),rgba(47,45,65,.7)),url("https://drive.google.com/uc?export=view&id=14HQd7KXhtXrlYEmmy1YzPCiUN2D4wn3i");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26rem;
+    position: absolute;
+    opacity: 1;
+}
+
+.cover-content {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.cover-phrase{
+    margin: 0 0 16px;
+    font-size: 48px;
+    line-height: 56px;
+    /* font-family: sans-serif; */
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.features { 
+    width: 79%;
+    margin: 0 auto;
+    min-width: 580px;
+    margin-bottom: 50px;
+}
+.areas { 
+    margin-top: 35px;
+    padding: 2rem;
+    border: 1px solid white ;
+    border-radius: 5px ;
+    box-shadow: 0px 3px 7px 0px #ccc;
+}
+
+.areas h1{
+    border-bottom: 1px solid lightgray;
+    font-size: 24px;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 20px;
+    font-weight: 800;
+    /* font-family: sans-serif; */
+}
+
+.area-list {
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.fcity {
+    width: 30%;
+    height: 200px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 200px;
+    background: orange;
+    margin: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px #000;
+    /* font-family: sans-serif; */
+}
+
+.fcity:hover {
+  /* opacity: 0.80; */
+  transform: scale(1.05);
+  cursor: pointer;
+filter: brightness(150%) saturate(150%);;
+
+}
+
+
+
+
+#makati {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://seat-check-seeds.s3-us-west-1.amazonaws.com/san+francisco.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#manila {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://www.colliers.com/-/media/images/colliers/asia/philippines/colliers-review/cv_hero_image_05112022/hero_image_mct_053122.ashx?bid=283dfa2416fd48c0bac1823182b2cade") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#pasig {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://3.bp.blogspot.com/-SJcdVm_OcAw/WglS7FYccGI/AAAAAAAAftg/aL_0tXawENMkuAsQ6ys0vzN8Ye5YndkIACLcBGAs/s1600/pasignight7.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#quezon {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://upload.wikimedia.org/wikipedia/commons/9/97/The_Heart_of_Quezon_City.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#mandaluyong{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://rainbowjournal.com/wp-content/uploads/2012/12/Mandaluyong41.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#taguig {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)),url("https://media.istockphoto.com/photos/skyline-of-bonifacio-global-city-philippines-picture-id1127898258?k=20&m=1127898258&s=612x612&w=0&h=1ASWaK-LskdO5Ot0-Cjnge6eQEV6D1PYUIAT9Z46-yc=") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
